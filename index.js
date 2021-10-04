@@ -26,7 +26,7 @@ client.on("ready", () => {
 client.on("messageCreate", (message) => {
   if (!message.content.startsWith(config.prefix) || message.author.bot) return;
 
-  if (message.channel.name !== "song_request") {
+  if (message.channel.name !== "🎵-song_request") {
     return message.channel.send(
       `This channel ${message.author} does not accept song requests you chode...`
     );
