@@ -1,6 +1,9 @@
 {
   "name": "discordmusicbot",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.10.0"
+  },
   "description": "Discord bot for playing music",
   "main": "index.mjs",
   "scripts": {
